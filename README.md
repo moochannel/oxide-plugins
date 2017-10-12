@@ -13,3 +13,13 @@ As same other Oxide plugins, place *[plugin_name]*.cs file into [oxide_dir]/plug
 To change settings, modify [oxide_dir]/config/[plugin_name].json then type ```oxide.load [plugin_name]``` on rcon console.
 
 To localize plugin, copy [oxide_dir]/lang/en/[plugin_name].json file to [oxide_dir]/lang/[your_lang_code]/ directory, modify json file, then type ```oxide.load [plugin_name]``` on rcon console.
+
+## How to use
+
+### PrioritySlot
+
+Set a permission ```priorityslot.prior``` for players to use prior (reserved) slots.
+
+By default, when prior players filled up prior slots, next prior player can use standard slots. Standard players cannot use prior slots. These behaviors can change by each slot.
+
+When the server is full and prior player come, a standard player will be kicked. If the standard player already set a sleeping bag, the player will be teleported there before kicked.
