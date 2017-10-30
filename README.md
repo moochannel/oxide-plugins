@@ -5,6 +5,7 @@ Oxide (ver.2) plugins for playing Rust on my server.
 ## Plugins
 
 - PrioritySlot.cs - Inspired by [Reserved](http://oxidemod.org/plugins/reserved.674/), added using slot flexibly and auto-kick feature.
+- RefreshAnimals.cs - Force respawn animals and you'll encounter them more frequently.
 
 ## Install
 
